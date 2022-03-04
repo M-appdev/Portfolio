@@ -1,16 +1,15 @@
 
 import "./side-bar.scss"
-// import image from "../../assets/images/MugShot.jpg"
 const SideBar = () => {
 
-let x=require("../../assets/images/MugShot.jpg")
+let myPicture=require("../assets/images/MugShot.jpg")
 
     return (
 
         <div className="sidebar" >
 
             <div className="photo-container">
-                <img className="image center" src={x} width="120" height="140"/>
+                <img className="image center" src={myPicture} width="120" height="140"/>
                 <h1 className="name">Milan Krunic</h1>
             </div>
             <div className="link-container">

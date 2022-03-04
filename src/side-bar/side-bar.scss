@@ -1,8 +1,8 @@
 .sidebar {
     position: fixed;
-    width   : 225px;
-    height  : 100%;
-    padding-top: 25vh;
+    width           : 225px;
+    height          : 100%;
+    padding-top     : 25vh;
     background-color: #111;
     overflow-x      : hidden;
 
@@ -15,13 +15,14 @@
             font-size : 22px;
         }
 
-
         .image {
+            margin-bottom: 10px;
             border-radius: 50px;
             border       : 5px solid #484848;
             width        : 130px;
         }
     }
+
     .link-container {
         align-items: center;
 
@@ -37,5 +38,5 @@
         }
     }
 
-    
+
 }

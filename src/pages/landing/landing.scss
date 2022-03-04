@@ -1,0 +1,20 @@
+.landing {
+    // flex:2;
+    height: 100%;
+    width : 100%;
+    color : white;
+
+    .title {
+        margin-top: 300px;
+        text-align: center;
+        font-size: 150px;
+     
+    }
+    .description{
+        font-size: 16px;
+        text-align: center;
+        color: white;
+        word-spacing: 5px;
+        letter-spacing: 10px;
+    }
+}

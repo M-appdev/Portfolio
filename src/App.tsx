@@ -1,12 +1,20 @@
 import './App.css';
 
-import SideBar from './pages/side-bar/side-bar';
-
+import SideBar from './side-bar/side-bar';
+import Landing from './pages/landing/landing';
+import Skills from './pages/skills/skills';
 
 function App() {
   return (
     <div className="App">
-      <SideBar/>
+     
+        <SideBar />
+        <div className="home">
+
+        <Landing />
+        <Skills />
+        </div>
+      
     </div>
   );
 }

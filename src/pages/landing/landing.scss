@@ -1,20 +1,23 @@
 .landing {
-    // flex:2;
-    height: 100%;
-    width : 100%;
-    color : white;
+
+    color: white;
+
+    background: rgb(17, 17, 17);
+    background: linear-gradient(169deg, rgba(17, 17, 17, 1) 0%, rgba(85, 87, 99, 1) 54%, rgba(139, 139, 139, 0.896796218487395) 100%);
+
 
     .title {
-        margin-top: 300px;
-        text-align: center;
-        font-size: 150px;
-     
+        padding-top: 300px;
+        text-align : center;
+        font-size  : 150px;
+
     }
-    .description{
-        font-size: 16px;
-        text-align: center;
-        color: white;
-        word-spacing: 5px;
+
+    .description {
+        font-size     : 16px;
+        text-align    : center;
+        color         : white;
+        word-spacing  : 5px;
         letter-spacing: 10px;
     }
 }

@@ -3,6 +3,30 @@
   padding: 0;
 }
 
+.container {
+  display: flex;
+}
+
+.page-centering {
+  margin: 0 200px 0 200px;
+  padding-left : 15px;
+  padding-right: 15px;
+  width        : 100%;
+}
+
+.page-title {
+  padding-top: 40px;
+  font-size: 55px;
+}
+.question{
+  color:#007bff;
+}
+.page-description {
+  text-align: center;
+  font-size: large;
+  color    : #333;
+}
+
 .center {
   display     : block;
   margin-left : auto;
@@ -10,21 +34,14 @@
   width       : 50%;
 }
 
-.home {
-  height      : 100vh;
-  padding-left: 225px;
-  overflow-x  : hidden;
+.side-bar {
+  width: 225px;
+}
 
+.contents {
+  flex: 1;
+}
 
-
-  background: rgb(17, 17, 17);
-  background: linear-gradient(169deg, rgba(17, 17, 17, 1) 0%, rgba(85, 87, 99, 1) 54%, rgba(139, 139, 139, 0.896796218487395) 100%);
-
-
-
-
-
-
-
-
+.page {
+  height: 100vh;
 }

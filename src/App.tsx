@@ -3,18 +3,20 @@ import './App.css';
 import SideBar from './side-bar/side-bar';
 import Landing from './pages/landing/landing';
 import Skills from './pages/skills/skills';
+import About from './pages/about/about';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className="App container">
+      <div className='side-bar'>
         <SideBar />
-        <div className="home">
-
+      </div>
+      <div className="contents">
         <Landing />
+        <About />
         <Skills />
-        </div>
-      
+      </div>
+
     </div>
   );
 }

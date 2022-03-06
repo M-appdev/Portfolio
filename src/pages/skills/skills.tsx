@@ -4,7 +4,7 @@ const Skills=()=>{
 
 
     return(
-       <div className="skills">skills</div>
+       <div className="skills page">skills</div>
     )
 }
 export default Skills

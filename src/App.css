@@ -1,8 +1,11 @@
 * {
   margin : 0;
   padding: 0;
+  cursor: default;
 }
-
+a{
+  cursor: pointer;
+}
 .container {
   display: flex;
 }
@@ -64,7 +67,7 @@
 }
 
 .myButton:hover {
-  background-color: white;
+  background-color: #0365ce;
   color           : black;
 }
 

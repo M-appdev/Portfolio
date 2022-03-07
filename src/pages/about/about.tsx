@@ -36,13 +36,18 @@ const About = () => {
                 <table className="about-me-table">
                     <tr >
                         <td>Name: </td>  <span className="table-text">Milan Krunic</span>
-                        <td>Email: </td> <a className="link"  href="#contact">milankrunic12@gmail.com</a>
+                        <td>Email: </td> <a className="link" href="#contact">milankrunic12@gmail.com</a>
                     </tr>
                     <tr >
                         <td>Age:  </td> <span className="table-text">{getAge()}</span>
                         <td>From: </td> <a className="link" href="https://www.google.com/maps/place/Bijeljina/" target="_blank">Bijeljina, Bosnia and Herzegovina</a>
                     </tr>
                 </table>
+
+                <div className="CV-container">
+                    <p className="cv">Curriculum vitae</p>
+                    <a className="myButton" href="../../assets/CV-Milan Krunic.pdf" download="CV-Milan-Krunic.pdf" >Download CV</a>
+                </div>
             </div>
 
 

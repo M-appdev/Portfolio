@@ -48,3 +48,27 @@
   height: 100vh;
   width : auto;
 }
+
+/* button */
+.myButton {
+ 
+  background-color   : #007bff;
+  border-radius      : 32px;
+  cursor             : pointer;
+  color              : white;
+  font-family        : Arial;
+  font-size          : 27px;
+  font-style         : italic;
+  padding            : 10px 60px;
+  text-decoration    : none;
+}
+
+.myButton:hover {
+  background-color: white;
+  color           : black;
+}
+
+.myButton:active {
+  position: relative;
+  top     : 2px;
+}

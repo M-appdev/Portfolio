@@ -21,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "build-deploy": "npm run build && aws s3 sync build/ s3://milankrunic.com",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

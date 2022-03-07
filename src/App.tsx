@@ -4,6 +4,9 @@ import SideBar from './side-bar/side-bar';
 import Landing from './pages/landing/landing';
 import Skills from './pages/skills/skills';
 import About from './pages/about/about';
+import Portfolio from './pages/portfolio/portfolio';
+import Contact from './pages/contact/contact';
+import WorkTogether from './pages/work-together/work-together';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Landing />
         <About />
         <Skills />
+        <WorkTogether />
+        <Portfolio />
+        <Contact/>
       </div>
 
     </div>

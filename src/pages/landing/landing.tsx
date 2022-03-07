@@ -7,7 +7,7 @@ const Landing = () => {
     return (
        <div className="landing page">
 
-           <h1 className="title ">Milan Krunic</h1>
+           <h1 className="milan-krunic">Milan Krunic</h1>
            <p className="description">Junior Web Developer</p>
 
 

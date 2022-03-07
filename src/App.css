@@ -8,23 +8,25 @@
 }
 
 .page-centering {
-  margin: 0 200px 0 200px;
-  padding-left : 15px;
-  padding-right: 15px;
-  width        : 100%;
+  padding         : 0 200px 0 200px;
+  /* padding-left : 15px;
+  padding-right   : 15px; */
+  width           : 100%;
+}
+
+.title {
+  width: max-content;
 }
 
 .page-title {
   padding-top: 40px;
-  font-size: 55px;
+  font-size  : 55px;
 }
-.question{
-  color:#007bff;
-}
+
 .page-description {
   text-align: center;
-  font-size: large;
-  color    : #333;
+  font-size : large;
+  color     : #333;
 }
 
 .center {
@@ -44,4 +46,5 @@
 
 .page {
   height: 100vh;
+  width : auto;
 }

@@ -14,10 +14,10 @@ let myPicture=require("../assets/images/MugShot.jpg")
             </div>
             <div className="link-container">
                 <a href="#" className="nav-link">Home</a>
-                <a href="#" className="nav-link">About</a>
-                <a href="#" className="nav-link">Skills</a>
-                <a href="#" className="nav-link">Portfolio</a>
-                <a href="#" className="nav-link">Contact</a>
+                <a href="#About" className="nav-link">About</a>
+                <a href="#Skills" className="nav-link">Skills</a>
+                <a href="#Portfolio" className="nav-link">Portfolio</a>
+                <a href="#Contact" className="nav-link">Contact</a>
             </div>
         </div>
     )

@@ -13,7 +13,7 @@ const About = () => {
     }
 
     return (
-        <div className="about page page-centering ">
+        <div id="About" className="about page page-centering ">
             <div className="picture">
                 <div className="title">
                     <h1 className="page-title">About me</h1>
@@ -36,7 +36,7 @@ const About = () => {
                 <table className="about-me-table">
                     <tr >
                         <td>Name: </td>  <span className="table-text">Milan Krunic</span>
-                        <td>Email: </td> <a className="link" href="#contact">milankrunic12@gmail.com</a>
+                        <td>Email: </td> <a className="link" href="mailto:milankrunic12@gmail.com">milankrunic12@gmail.com</a>
                     </tr>
                     <tr >
                         <td>Age:  </td> <span className="table-text">{getAge()}</span>

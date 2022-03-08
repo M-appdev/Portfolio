@@ -14,10 +14,10 @@ const Contact = () => {
             </div>
 
 
-            <form action="https://formsubmit.co/milankrunic12@gmail.com" method="POST" onSubmit={() => alert("Message sent! I will respond asap!")}>
+            <form action="https://formsubmit.co/milankrunic12@gmail.com" method="POST" onSubmit={() =>console.log("popup")}>
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_subject" value="New email from website!" />
-                <input type="hidden" name="_next" value="http://localhost:3000/#Home" />
+                <input type="hidden" name="_next" value="http://www.milankrunic.com/#Home" />
 
                 <input className="form name" type="text" name="name" required placeholder="Your name" />
                 <input className="form email" type="email" name="email" required placeholder="Email" />

@@ -50,10 +50,7 @@ a{
   flex: 1;
 }
 
-.page {
-  height: 100vh;
-  width : auto;
-}
+
 
 /* button */
 .myButton {

@@ -8,14 +8,13 @@
 
     .container {
         display: inline;
-
+        
         .title {
             color    : white;
             font-size: 70px;
         }
 
         .description {
-
             font-size: 22px;
             color    : rgba(214, 214, 214, 0.95);
         }
@@ -31,12 +30,4 @@
         
     }
 
-    .center {
-        margin       : 0;
-        position     : absolute;
-        top          : 50%;
-        left         : 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform    : translate(-50%, -50%);
-    }
 }

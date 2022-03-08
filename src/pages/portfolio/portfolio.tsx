@@ -8,28 +8,38 @@ const Portfolio = () => {
 
             <div className="title">
                 <h1 className="page-title">Portfolio</h1>
-                <p className="page-description">Welcome to a showcase of my best work!</p>
+                <span className="page-description">Welcome to a showcase of my best work!</span>
+            </div>
+
+            <div className="profesional-projects">
+                <h1>Profesional Projects:</h1>
+                <ProjectCard projectName="Daimler DARWIN Marathon" imgSrc={"https://www.allbusiness.com/asset/2019/07/Business-apps.jpg"} />
+
+            </div>
+            <div className="personal-projects">
+            <h1>My Personal Projects:</h1>
+
+                <ProjectCard projectName="Gym Buddy" imgSrc={"https://findhealthcoach.com/wp-content/uploads/2018/10/GymBuddy-300x300.jpg"}/>
+
             </div>
 
 
-
-            <ProjectCard/>
 
         </div>
     )
 }
 export default Portfolio
 
-const ProjectCard = () => {
-    const spirit =require("../../assets/images/bussiness-management.jpg")
-    const gymBuddy =require("../../assets/images/gym-buddy.jpg")
+const ProjectCard = (props: any) => {
+    const spirit = require("../../assets/images/bussiness-management.jpg")
+    const gymBuddy = require("../../assets/images/gym-buddy.jpg")
 
     return (
         <div className="project-card">
 
-            <img src={spirit} alt="" width={350} />
-            <img src={gymBuddy} alt="" width={350} />
-
+            <img className="project-image" src={props.imgSrc} alt="" width={250} height={250} />
+           
+            <h1 className="project-name">{props.projectName}</h1>
 
         </div>
     )

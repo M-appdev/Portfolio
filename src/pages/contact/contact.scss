@@ -1,11 +1,14 @@
 .contact {
     background-color: #f7f7f7;
+    height          : fit-content;
+    padding-bottom   : 50px;
 
-    .myButton{
+    .myButton {
         margin-top: 50px;
     }
 
     .form {
+        cursor          : auto;
         caret-color     : auto;
         margin-top      : 15px;
         background-color: #fff;
@@ -39,11 +42,11 @@
     }
 
 
-    .thank-you{
+    .thank-you {
         padding-top: 50px;
         text-align : center;
         font-size  : 75px;
-        color: rgb(26, 131, 82);
+        color      : rgb(26, 131, 82);
         // color: #f7f7f7;
 
         font-family    : Impact, Charcoal, sans-serif;

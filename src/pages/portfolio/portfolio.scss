@@ -1,3 +1,36 @@
-.portfolio{
+.portfolio {
+    height       : fit-content;
+    margin-bottom: 1em;
 
+    .page-description {
+        display: flex;
+    }
+
+
+    .profesional-projects {
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(161, 161, 161, 0.95);
+        margin-bottom : 20px;
+    }
+
+
+
+
+
+
+    .project-card {
+        margin-top: 20px;
+        width : 300px;
+        height: 350px;
+        border: 1px solid black;
+
+        .project-name {
+            text-align: center;
+        }
+        .project-image{
+            border: 1px solid black;
+            width: 298px;
+            margin: 0 auto;
+        }
+    }
 }

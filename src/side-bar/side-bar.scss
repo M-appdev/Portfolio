@@ -1,12 +1,19 @@
+.moveME{
+    position: relative;
+    height: 100%;
+    margin: 0 225px 0 0;
+}
 .sidebar {
-    position: fixed;
-    margin: 0 auto;
-    width   : 225px;
+    position: fixed ;   
+    min-width: 225px;
     height          : 100%;
     padding-top     : 25vh;
     background-color: #111;
-    overflow-x      : hidden;
 
+    #home{
+        color: #007bff;
+    }
+   
     .photo-container {
         padding-bottom: 20px;
 
@@ -41,3 +48,12 @@
 
 
 }
+
+@media screen and (max-width: 600px) {
+    div.sidebar {
+      display: none;
+    }
+    div.moveME{
+        display: none;
+    }
+  }

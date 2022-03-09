@@ -1,21 +1,34 @@
 .landing {
-    min-height :100vh;
+    min-height    : 100vh;
     padding-bottom: 50px;
-    color: white;
+    color         : white;
 
     background: rgb(17, 17, 17);
     background: linear-gradient(169deg, rgba(17, 17, 17, 1) 0%, rgb(13, 13, 15) 54%, rgba(32, 31, 31, 0.897) 100%);
 
-    background-image:     linear-gradient( rgba(0,0,0,.75), rgba(0,0,0,.55) ),    url("../../assets/images/landing-background.jpg");
+    background-image : linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .55)), url("../../assets/images/landing-background.jpg");
     background-repeat: no-repeat, repeat;
-    background-size: 100%; /* Resize the background image to cover the entire container */
+    background-size  : 100%;
+    /* Resize the background image to cover the entire container */
 
-  
+
+    position: relative;
+
+    .align-text {
+        position: absolute;
+        left: calc(50vw - 225px);
+        top: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+        padding-left: 225px;
+    
+    }
 
     .milan-krunic {
-        padding-top: 300px;
-        text-align : center;
-        font-size  : 150px;
+
+       
+
+        font-size: 150px;
 
 
         font-family    : Impact, Charcoal, sans-serif;
@@ -26,17 +39,16 @@
         font-style     : italic;
         font-variant   : small-caps;
         text-transform : none;
-        text-shadow: 0 0 3px #000000, 0 0 5px #c32424;
+        text-shadow    : 0 0 3px #000000, 0 0 5px #c32424;
 
     }
 
     .description {
-        font-size     : 26px;
-        font-weight: 700;
-        text-shadow: 0 0 3px #000000, 0 0 5px #c32424;
 
-        text-align    : center;
-        color         : white;
+text-align: center;
+        font-size     : 26px;
+        font-weight   : 700;
+        text-shadow   : 0 0 3px #000000, 0 0 5px #c32424;
         word-spacing  : 5px;
         letter-spacing: 10px;
     }

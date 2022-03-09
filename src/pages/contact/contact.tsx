@@ -1,6 +1,8 @@
 import { useState } from "react"
 import "./contact.scss"
 
+import PopUp from "../../components/pop-up/pop-up";
+
 const Contact = () => {
     const [showThankYou, setShowThankYou] = useState(false);
 
@@ -14,7 +16,7 @@ const Contact = () => {
             </div>
 
 
-            <form action="https://formsubmit.co/milankrunic12@gmail.com" method="POST" onSubmit={() =>console.log("popup")}>
+            <form action="https://formsubmit.co/milankrunic12@gmail.com" method="POST" onSubmit={() => setShowThankYou(true)}>
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_subject" value="New email from website!" />
                 <input type="hidden" name="_next" value="http://www.milankrunic.com/#Home" />
@@ -28,8 +30,7 @@ const Contact = () => {
                 <button className="myButton" type="submit" >Send</button>
             </form>
 
-
-
+            {showThankYou ? <h1 className="thank-you">Message Sent!</h1> : ""}
         </div>
 
 

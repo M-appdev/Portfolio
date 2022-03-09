@@ -43,19 +43,16 @@
 
 
     .thank-you {
-        padding-top: 50px;
-        text-align : center;
-        font-size  : 75px;
-        color      : rgb(26, 131, 82);
-        // color: #f7f7f7;
+        font-size  : 25px;
+        // color       : rgba(66, 66, 66, 0.95);
+        // color: #007bff;
+        color: #111;
 
         font-family    : Impact, Charcoal, sans-serif;
         letter-spacing : 5.2px;
         word-spacing   : -5px;
-        font-weight    : 700;
-        text-decoration: none solid rgb(68, 68, 68);
+        font-weight    : 400;
         font-style     : italic;
         font-variant   : small-caps;
-        text-transform : none;
     }
 }

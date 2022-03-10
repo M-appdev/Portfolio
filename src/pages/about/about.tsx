@@ -24,12 +24,14 @@ const About = () => {
             </div>
             <div className="about-content">
                 <h2 className="question">Who am I?</h2>
-                <h1>I'm Milan Krunic, Junior Web Develioper</h1>
+                <h1>I'm Milan Krunic, Junior Develioper</h1>
                 <p className="about-me">
-                    {/* I am a web developer based in the United States, and I build websites and commercial-grade applications,
-                    which comply with the latest technological trends. I help convert a vision and an idea into meaningful and useful products.
-                    Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster. */}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Hello! I'm a web developer based in Bosnia And Herzegovina,
+                    studying and finishing my bachelor's degree in computer science.
+                    I have about a year of proffesional experience as a web developer, primarely front-end web development, though i love mobile development too!
+                    I always strive to improve myself in all possible ways, which is convenient when you work as a developer.
+                    Continuous learning and improvement makes me happy and I happily do it.
+                    I'm always looking for new ways to grow, so if you're interested in working with me, don't hesitate to email me!
 
                 </p>
 

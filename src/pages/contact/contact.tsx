@@ -22,7 +22,7 @@ const Contact = () => {
                 <input type="hidden" name="_next" value="http://www.milankrunic.com/#Home" />
 
                 <input className="form name" type="text" name="name" required placeholder="Your name" />
-                <input className="form email" type="email" name="email" required placeholder="Email" />
+                <input className="form email" type="email" name="email" required placeholder="Your Email" />
                 <input className="form subject" type="subject" name="subject" placeholder="Subject" />
 
                 <input className=" form message" type="message" name="message" required placeholder="Message " />

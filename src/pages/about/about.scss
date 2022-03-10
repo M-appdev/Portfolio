@@ -1,6 +1,6 @@
 .about {
-    display: inline-flex;
-    min-height : fit-content;
+    display       : inline-flex;
+    min-height    : fit-content;
     padding-bottom: 50px;
 
     .CV-container {
@@ -44,7 +44,7 @@
 
         .about-me {
             margin-top    : 15px;
-            padding-bottom: 100px;
+            padding-bottom: 20px;
             font-size     : large;
             color         : rgba(66, 66, 66, 0.95);
             border-bottom : 1px solid rgba(161, 161, 161, 0.95);
@@ -79,4 +79,24 @@
             }
         }
     }
+    @media all and (max-width: 1630px) {
+       
+        p{
+            color: #000000;
+        }
+    
+        .page-title{
+            color:red;
+        }
+       
+    
+    }
+
+
+
+
+
+
+    
 }
+

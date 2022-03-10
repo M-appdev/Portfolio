@@ -14,14 +14,15 @@ const About = () => {
 
     return (
         <div id="About" className="about page page-centering ">
+            
             <div className="picture">
                 <div className="title">
                     <h1 className="page-title">About me</h1>
                     <p className="page-description">Some basic info about myself</p>
                 </div>
                 <img src={myPicture} className="profile-picture" />
-
             </div>
+
             <div className="about-content">
                 <h2 className="question">Who am I?</h2>
                 <h1>I'm Milan Krunic, Junior Develioper</h1>
@@ -48,7 +49,7 @@ const About = () => {
 
                 <div className="CV-container">
                     <p className="cv">Curriculum vitae</p>
-                    <a className="myButton" href="../../assets/CV-Milan Krunic.pdf" download="CV-Milan-Krunic.pdf" >Download CV</a>
+                    <a className="myButton" href="./CV-Milan Krunic.pdf" download="CV-Milan-Krunic.pdf" >Download CV</a>
                 </div>
             </div>
 

@@ -3,6 +3,11 @@
     min-height    : fit-content;
     padding-bottom: 50px;
 
+
+    .title {
+        width: max-content;
+    }
+
     .CV-container {
         display: flex;
 
@@ -40,7 +45,7 @@
     .about-content {
         margin-top : 200px;
         margin-left: 80px;
-        width      : 650px;
+        max-width  : 650px;
 
         .about-me {
             margin-top    : 15px;
@@ -79,24 +84,21 @@
             }
         }
     }
-    @media all and (max-width: 1630px) {
-       
-        p{
-            color: #000000;
+
+    @media (max-width: 1630px) {
+        .profile-picture {
+            width : 250px;
+            height: 300px;
         }
-    
-        .page-title{
-            color:red;
+
+        .about-content {
+            max-width: 55vw;
+            width    : 55vw;
+
+            margin-top   : 50px;
+            margin-bottom: 50px;
+            margin-right : 50px;
         }
-       
-    
     }
 
-
-
-
-
-
-    
 }
-

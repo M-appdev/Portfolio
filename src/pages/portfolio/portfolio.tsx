@@ -18,7 +18,7 @@ const Portfolio = () => {
 
             <div className="personal-projects">
                 <h1>My Personal Projects:</h1>
-                <ProjectCard projectName="Gym Buddy" imgSrc={"https://findhealthcoach.com/wp-content/uploads/2018/10/GymBuddy-300x300.jpg"} />
+                <ProjectCard projectName="Gym Buddy" openSite={"http://personalgymbuddy.milankrunic.com"} imgSrc={"https://findhealthcoach.com/wp-content/uploads/2018/10/GymBuddy-300x300.jpg"} />
             </div>
 
 

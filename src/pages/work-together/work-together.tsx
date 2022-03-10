@@ -4,7 +4,7 @@ const WorkTogether = () => {
 
 
     return (
-        <div className="work-together">
+        <div className="work-together page">
 
             <div className="container">
                 <h1 className="title ">Let's Work Together!</h1>

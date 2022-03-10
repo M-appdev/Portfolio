@@ -4,7 +4,7 @@
   cursor: default;
   caret-color: rgba(0,0,0,0);
   box-sizing: border-box;
-
+  -webkit-text-size-adjust: 100%;
 }
 a{
   cursor: pointer;
@@ -12,17 +12,16 @@ a{
 .container {
   display: flex;
 }
-
+.page{
+  width: 100%;
+}
 .page-centering {
   padding         : 0 200px 0 200px;
   /* padding-left : 15px;
   padding-right   : 15px; */
-  width           : 100%;
+  /* width           : 100%; */
 }
 
-.title {
-  width: max-content;
-}
 
 .page-title {
   padding-top: 40px;
@@ -74,4 +73,14 @@ a{
 .myButton:active {
   position: relative;
   top     : 2px;
+}
+
+@media (max-width: 1630px) {
+
+  .page-centering {
+      padding: 0 50px 0 50px;
+  }
+  .work-together{
+      /* width:min-content; */
+  }
 }

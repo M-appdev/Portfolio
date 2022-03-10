@@ -1,11 +1,16 @@
 import "./project-card.scss"
 
 const ProjectCard = (props: any) => {
-    const spirit = require("../../assets/images/bussiness-management.jpg")
-    const gymBuddy = require("../../assets/images/gym-buddy.jpg")
+   
+    const openSite=()=>{
+        if(props.openSite){
+            console.log("clicked")
+            window.open(props.openSite)
+        }
+    }
 
     return (
-        <div className="project-card" onClick={()=>window.open("http://personalgymbuddy.milankrunic.com")}>
+        <div className="project-card" onClick={()=>openSite()}>
 
             <img className="project-image" src={props.imgSrc} alt="" width={300} height={300} />
 

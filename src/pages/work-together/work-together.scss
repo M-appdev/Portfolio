@@ -1,7 +1,7 @@
 .work-together {
     background-color: #333;
     height          : fit-content;
-    padding         : 10px 0 10px 200px;
+    padding         : 10px 0 10px 90px;
 
     .container {
         display        : flex;
@@ -52,15 +52,14 @@
             font-size: 40px !important;
         }
     }
-    @media (max-width:700px) {
-       
 
+    @media (max-width:700px) {
         .title {
             font-size: 30px !important;
         }
 
-        .myButton{
-            padding: 9px;
+        .myButton {
+            padding  : 9px;
             font-size: 12px !important;
         }
     }

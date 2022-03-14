@@ -26,6 +26,21 @@
         height   : fit-content;
     }
 
+    
+@media (max-width:700px) {
+    .title {
+        font-size: 30px !important;
+    }
+
+  
+
+        .myButton {
+            padding  : 9px;
+            font-size: 12px !important;
+        }
+    
+}
+
 }
 
 @media (max-width: 1630px) {
@@ -42,25 +57,13 @@
     .title {
         font-size: 4vw !important;
     }
-
-    @media (max-width:1000px) {
-        .description {
-            font-size: 15px !important;
-        }
-
-        .title {
-            font-size: 40px !important;
-        }
+}
+@media (max-width:1000px) {
+    .description {
+        font-size: 15px !important;
     }
 
-    @media (max-width:700px) {
-        .title {
-            font-size: 30px !important;
-        }
-
-        .myButton {
-            padding  : 9px;
-            font-size: 12px !important;
-        }
+    .title {
+        font-size: 40px !important;
     }
 }

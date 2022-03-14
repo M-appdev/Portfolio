@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "home":"www.milankrunic.com",
+  "home":"milankrunic.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "build-deploy": "npm run build && aws s3 sync build/ s3://www.milankrunic.com",
+    "build-deploy": "npm run build && aws s3 sync build/ s3://milankrunic.com",
     "deploy": "aws s3 sync build/ s3://milankrunic.com",
     "eject": "react-scripts eject"
   },

@@ -16,7 +16,7 @@ a{
   width: 100%;
 }
 .page-centering {
-  padding         : 0 200px 0 200px;
+  padding-left:200px;
   /* padding-left : 15px;
   padding-right   : 15px; */
   /* width           : 100%; */
@@ -47,6 +47,7 @@ a{
 
 .contents {
   flex: 1;
+  /* height: 100%; */
 }
 
 
@@ -54,9 +55,9 @@ a{
 /* button */
 .myButton {
  
+  cursor             : pointer;
   background-color   : #007bff;
   border-radius      : 32px;
-  cursor             : pointer;
   color              : white;
   font-family        : Arial;
   font-size          : 27px;
@@ -78,7 +79,7 @@ a{
 @media (max-width: 1630px) {
 
   .page-centering {
-      padding: 0 50px 0 50px;
+      padding-left: 50px;
   }
   .work-together{
       /* width:min-content; */

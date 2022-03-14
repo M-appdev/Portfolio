@@ -5,6 +5,10 @@
 
     .myButton {
         margin-top: 50px;
+        display: block;
+    }
+    .page-description{
+        text-align: start;
     }
 
     .form {
@@ -21,21 +25,20 @@
     }
 
     .name {
-        width       : calc(50% - 5px);
+        width       : calc(40% - 5px);
         margin-right: 10px;
     }
 
     .email {
-        width: calc(50% - 5px);
-
+        width: calc(40% - 5px);
     }
 
     .subject {
-        width: 100%;
+        width: 80%;
     }
 
     .message {
-        width    : 100%;
+        width    : 80%;
         height   : 135px;
         font-size: 22px;
 
@@ -44,8 +47,6 @@
 
     .thank-you {
         font-size  : 25px;
-        // color       : rgba(66, 66, 66, 0.95);
-        // color: #007bff;
         color: #111;
 
         font-family    : Impact, Charcoal, sans-serif;

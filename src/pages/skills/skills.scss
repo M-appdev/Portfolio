@@ -3,6 +3,10 @@
     height: fit-content;
     padding-bottom: 100px;
 
+    .page-description{
+        text-align: start;
+    }
+
     .card-holder {
         width: inherit;
         display: grid;
@@ -18,12 +22,6 @@
         text-align     : center;
         justify-content: space-between;
     }
-
-
-
-
-
-
 
     .skill-card {
         background-color: white;

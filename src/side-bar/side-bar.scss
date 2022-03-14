@@ -1,9 +1,9 @@
 .moveME{
-    position: relative;
     height: 100%;
     margin: 0 225px 0 0;
 }
 .sidebar {
+    display: inline;
     position: fixed ;   
     min-width: 225px;
     height          : 100%;
@@ -48,10 +48,11 @@
 }
 
 @media screen and (max-width: 600px) {
-    div.sidebar {
+    div.side-bar {
       display: none;
     }
     div.moveME{
         display: none;
     }
   }
+

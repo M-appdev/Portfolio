@@ -2,9 +2,7 @@
     height       : fit-content;
     margin-bottom: 50px;
 
-    .page-description {
-        display: flex;
-    }
+  
 
 
     .profesional-projects {
@@ -18,11 +16,52 @@
     .personal-projects {
         margin-top    : 50px;
         padding-bottom: 50px;
-        margin-bottom : 20px;
+        margin-bottom : 0px;
     }
 
+    .project-holder {
+        width  : inherit;
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        grid-auto-rows: auto;
+        grid-gap      : 1rem;
+    }
+
+    .project-group{
+        padding-bottom: 30px;
+
+    }
+
+}
+@media screen and (max-width:1374px) {
+
+    div .project-holder {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-auto-rows       : auto;
+        grid-gap             : 1em;
 
 
+    }
 
-    
+}
+@media screen and (max-width:786px) {
+
+    div .project-holder {
+        grid-template-columns: repeat(1, 1fr) !important;
+
+        justify-content: center !important;
+        justify-items: center;
+    }
+    div .title{
+        text-align: center;
+    }
+    div  .page-description{
+        text-align: center !important;
+    }
+    .project-group{
+        text-align: center !important;
+    }
+
 }

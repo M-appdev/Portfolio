@@ -12,13 +12,17 @@ const Portfolio = () => {
             </div>
 
             <div className="profesional-projects">
-                <h1>Profesional Projects:</h1>
-                <ProjectCard projectName="Daimler DARWIN Marathon" imgSrc={"https://www.allbusiness.com/asset/2019/07/Business-apps.jpg"} />
+                <h1 className="project-group">Profesional Projects:</h1>
+                <div className="project-holder">
+                    <ProjectCard projectName="Daimler DARWIN Marathon" imgSrc={"https://www.allbusiness.com/asset/2019/07/Business-apps.jpg"} />
+                </div>
             </div>
 
             <div className="personal-projects">
-                <h1>My Personal Projects:</h1>
-                <ProjectCard projectName="Gym Buddy" openSite={"http://personalgymbuddy.milankrunic.com"} imgSrc={"https://findhealthcoach.com/wp-content/uploads/2018/10/GymBuddy-300x300.jpg"} />
+                <h1 className="project-group">My Personal Projects:</h1>
+                <div className="project-holder">
+                    <ProjectCard projectName="Gym Buddy" openSite={"http://personalgymbuddy.milankrunic.com"} imgSrc={"https://findhealthcoach.com/wp-content/uploads/2018/10/GymBuddy-300x300.jpg"} />
+                </div>
             </div>
 
 

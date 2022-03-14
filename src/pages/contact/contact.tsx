@@ -25,7 +25,7 @@ const Contact = () => {
                 <input className="form email" type="email" name="email" required placeholder="Your Email" />
                 <input className="form subject" type="subject" name="subject" placeholder="Subject" />
 
-                <input className=" form message" type="message" name="message" required placeholder="Message " />
+                <textarea className=" form message"  name="message" required placeholder="Message " />
 
                 <button className="myButton" type="submit" >Send</button>
             </form>

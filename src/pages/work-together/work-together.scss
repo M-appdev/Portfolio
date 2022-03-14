@@ -1,13 +1,12 @@
 .work-together {
-    display: flex;
-
     background-color: #333;
-    height          : 150px;
-    padding-left    : 100px;
+    height          : fit-content;
+    padding         : 10px 0 10px 200px;
 
     .container {
-        display: inline;
-        width  : fit-content;
+        display        : flex;
+        align-items    : center;
+        justify-content: space-around;
 
         .title {
             color    : white;
@@ -15,17 +14,54 @@
         }
 
         .description {
+            display  : inline-flex;
             font-size: 22px;
             color    : rgba(214, 214, 214, 0.95);
         }
-
-       
     }
+
     .myButton {
-        height: fit-content;
-        position: relative;
-        top: 50px;
-        left: 10%;
+        font-size: 1.9vw;
+        display  : flex;
+        height   : fit-content;
     }
 
+}
+
+@media (max-width: 1630px) {
+    .work-together {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:1374px) {
+    .description {
+        font-size: 1.6vw !important;
+    }
+
+    .title {
+        font-size: 4vw !important;
+    }
+
+    @media (max-width:1000px) {
+        .description {
+            font-size: 15px !important;
+        }
+
+        .title {
+            font-size: 40px !important;
+        }
+    }
+    @media (max-width:700px) {
+       
+
+        .title {
+            font-size: 30px !important;
+        }
+
+        .myButton{
+            padding: 9px;
+            font-size: 12px !important;
+        }
+    }
 }

@@ -1,13 +1,14 @@
 .contact {
     background-color: #f7f7f7;
     height          : fit-content;
-    padding-bottom   : 50px;
+    padding-bottom  : 50px;
 
     .myButton {
         margin-top: 50px;
-        display: block;
+        display   : block;
     }
-    .page-description{
+
+    .page-description {
         text-align: start;
     }
 
@@ -41,19 +42,35 @@
         width    : 80%;
         height   : 135px;
         font-size: 22px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 
     }
 
 
     .thank-you {
-        font-size  : 25px;
-        color: #111;
+        font-size: 25px;
+        color    : #111;
 
-        font-family    : Impact, Charcoal, sans-serif;
-        letter-spacing : 5.2px;
-        word-spacing   : -5px;
-        font-weight    : 400;
-        font-style     : italic;
-        font-variant   : small-caps;
+        font-family   : Impact, Charcoal, sans-serif;
+        letter-spacing: 5.2px;
+        word-spacing  : -5px;
+        font-weight   : 400;
+        font-style    : italic;
+        font-variant  : small-caps;
+    }
+}
+
+@media screen and (max-width:786px) {
+
+    .name  {
+        width: calc(49% - 5px)!important;
+        margin-right: 10px;
+    }
+    .email{
+        width: calc(49% - 5px)!important;
+
+    }
+    .subject , .message{
+        width: 98% !important;
     }
 }

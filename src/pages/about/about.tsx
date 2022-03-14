@@ -14,7 +14,7 @@ const About = () => {
 
     return (
         <div id="About" className="about page page-centering ">
-            
+
             <div className="picture">
                 <div className="title">
                     <h1 className="page-title">About me</h1>
@@ -25,7 +25,7 @@ const About = () => {
 
             <div className="about-content">
                 <h2 className="question">Who am I?</h2>
-                <h1>I'm Milan Krunic, Junior Develioper</h1>
+                <h1>I'm Milan Krunic, Junior Developer</h1>
                 <p className="about-me">
                     Hello! I'm a web developer based in Bosnia And Herzegovina,
                     studying and finishing my bachelor's degree in computer science.
@@ -38,13 +38,12 @@ const About = () => {
 
                 <table className="about-me-table">
                     <tr >
-                        <td>Name: </td>  <span className="table-text">Milan Krunic</span>
-                        <td>Email: </td> <a className="link" href="mailto:milankrunic12@gmail.com">milankrunic12@gmail.com</a>
+                        <td className="first-column">Name:  Milan Krunic</td>
+                        <td>Email: <a className="link " href="mailto:milankrunic12@gmail.com">milankrunic12@gmail.com</a></td>
                     </tr>
                     <tr >
-                        <td>Age:  </td> <span className="table-text">{getAge()}</span>
-                        <td>From: </td> <a className="link" href="https://www.google.com/maps/place/Bijeljina/" target="_blank">Bijeljina, Bosnia and Herzegovina</a>
-                    </tr>
+                        <td className="first-column">Age:{getAge()}</td>
+                        <td>From: <a className="link " href="https://www.google.com/maps/place/Bijeljina/" target="_blank">Bijeljina, Bosnia and Herzegovina</a></td>                    </tr>
                 </table>
 
                 <div className="CV-container">

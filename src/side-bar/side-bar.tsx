@@ -19,7 +19,6 @@ const SideBar = () => {
         var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop
         var trackLength = docheight - winheight
         var pctScrolled = Math.floor(scrollTop / trackLength * 100) // gets percentage scrolled (ie: 80 or NaN if tracklength == 0)
-        console.log(pctScrolled)
         if (pctScrolled < 17) { //home
             let nextElement = document.getElementById('about');
             if (nextElement) (nextElement as HTMLParagraphElement).style.color = "rgba(232, 232, 232, 0.95)"
@@ -29,7 +28,7 @@ const SideBar = () => {
 
             let lastElement = document.getElementById('about');
             if (lastElement) (lastElement as HTMLParagraphElement).style.color = "rgba(232, 232, 232, 0.95)"
-        } else if (pctScrolled > 17 && pctScrolled <38) { //about
+        } else if (pctScrolled > 17 && pctScrolled < 38) { //about
             let nextElement = document.getElementById('home');
             if (nextElement) (nextElement as HTMLParagraphElement).style.color = "rgba(232, 232, 232, 0.95)"
 

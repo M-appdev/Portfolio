@@ -20,6 +20,7 @@ const SideBar = () => {
 
     }
 
+    //Sets the correct highlight on the side-bar
     window.addEventListener("scroll", function () {
         amountScrolled()
     }, false)

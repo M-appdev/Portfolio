@@ -5,7 +5,9 @@
   caret-color: rgba(0,0,0,0);
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
+
 a{
   cursor: pointer;
 }

@@ -1,6 +1,6 @@
 
 
-export default function amountscrolled() {
+export default function amountScrolled() {
 
     var winheight = window.innerHeight || (document.documentElement || document.body).clientHeight
 

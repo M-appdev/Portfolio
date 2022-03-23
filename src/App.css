@@ -49,7 +49,6 @@ a{
 
 .contents {
   flex: 1;
-  /* height: 100%; */
 }
 
 
@@ -82,6 +81,14 @@ a{
 
   .page-centering {
       padding-left: 50px;
+  }
+
+  
+}
+@media (max-width: 830px) {
+
+  .page-centering {
+      padding-left: 0px !important;
   }
 
   

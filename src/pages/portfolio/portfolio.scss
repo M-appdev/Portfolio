@@ -1,7 +1,7 @@
 .portfolio {
-    height       : fit-content;
+    height: fit-content;
 
-  
+
 
 
     .profesional-projects {
@@ -19,21 +19,21 @@
     }
 
     .project-holder {
-        width  : inherit;
-        display: grid;
-
+        width                : inherit;
+        display              : grid;
         grid-template-columns: repeat(3, 1fr);
 
         grid-auto-rows: auto;
         grid-gap      : 1rem;
     }
 
-    .project-group{
+    .project-group {
         padding-bottom: 30px;
 
     }
 
 }
+
 @media screen and (max-width:1374px) {
 
     div .project-holder {
@@ -45,21 +45,25 @@
     }
 
 }
+
 @media screen and (max-width:786px) {
 
     div .project-holder {
         grid-template-columns: repeat(1, 1fr) !important;
 
         justify-content: center !important;
-        justify-items: center;
+        justify-items  : center;
     }
-    div .title{
+
+    div .title {
         text-align: center;
     }
-    div  .page-description{
+
+    div .page-description {
         text-align: center !important;
     }
-    .project-group{
+
+    .project-group {
         text-align: center !important;
     }
 

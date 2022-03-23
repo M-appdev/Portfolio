@@ -1,0 +1,31 @@
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width           : 350px;
+    height          : 200px;
+
+    background-color: white;
+    border          : 1px solid rgb(200, 200, 200);
+   
+
+
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-description {
+        color   : rgba(66, 66, 66, 0.95);
+    }
+    .card-description , .card-title{
+        padding: 0px 10px 0px 10px;
+    }
+}
+
+@media  (max-width:380px) {
+    .skill-card{
+        width:280px !important;
+        // height: 300px !important;
+    }
+}

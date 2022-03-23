@@ -6,17 +6,17 @@ const SideBar = () => {
 
     let myPicture = require("../assets/images/MugShot.jpg")
 
-    const setLinkColors=(link: string)=> {
+    const setLinkColors = (link: string) => {
+        //not neccesary 
+        // const navLinks = document.getElementsByClassName('nav-link');
 
-        const navLinks = document.getElementsByClassName('nav-link');
+        // for (let i = 0; i < navLinks.length; i++) {
+        //     const slide = navLinks[i] as HTMLElement;
+        //     slide.style.color = "rgba(232, 232, 232, 0.95)";
+        // }
 
-        for (let i = 0; i < navLinks.length; i++) {
-            const slide = navLinks[i] as HTMLElement;
-            slide.style.color = "rgba(232, 232, 232, 0.95)";
-        }
-
-        let element = document.getElementById(link);
-        if (element) (element as HTMLParagraphElement).style.color = "#007bff"
+        // let element = document.getElementById(link);
+        // if (element) (element as HTMLParagraphElement).style.color = "#007bff"
 
     }
 

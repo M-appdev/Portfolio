@@ -26,21 +26,33 @@
         height   : fit-content;
     }
 
-    
-@media (max-width:700px) {
-    .title {
-        font-size: 30px !important;
-    }
 
-  
+    @media (max-width:700px) {
+        .title {
+            font-size: 30px !important;
+        }
 
         .myButton {
             padding  : 9px;
             font-size: 12px !important;
         }
+
+    }
+
+    
     
 }
 
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        gap           : 20px;
+    }
+
+    .work-together {
+        padding: 10px 0px 10px 0px !important;
+        text-align: center !important;
+    }
 }
 
 @media (max-width: 1630px) {
@@ -58,6 +70,7 @@
         font-size: 4vw !important;
     }
 }
+
 @media (max-width:1000px) {
     .description {
         font-size: 15px !important;

@@ -25,9 +25,9 @@ const About = () => {
 
             <div className="about-content">
                 <h2 className="question">Who am I?</h2>
-                <h1>I'm Milan Krunic, Junior Developer</h1>
+                <h1>I'm Milan Krunic, Junior Software Developer</h1>
                 <p className="about-me">
-                    Hello! I'm a web developer based in Bosnia And Herzegovina,
+                    Hello! I'm a software developer based in Bosnia And Herzegovina,
                     studying and finishing my bachelor's degree in computer science.
                     I have about a year of proffesional experience as a web developer, primarely front-end web development, though i love mobile development too!
                     I always strive to improve myself in all possible ways, which is convenient when you work as a developer.
@@ -38,12 +38,13 @@ const About = () => {
 
                 <table className="about-me-table">
                     <tr >
-                        <td className="first-column">Name:  Milan Krunic</td>
+                        <td>Name:  Milan Krunic</td>
                         <td>Email: <a className="link " href="mailto:milankrunic12@gmail.com">milankrunic12@gmail.com</a></td>
                     </tr>
                     <tr >
                         <td className="first-column">Age:{getAge()}</td>
-                        <td>From: <a className="link " href="https://www.google.com/maps/place/Bijeljina/" target="_blank">Bijeljina, Bosnia and Herzegovina</a></td>                    </tr>
+                        <td>From: <a className="link " href="https://www.google.com/maps/place/Bijeljina/" target="_blank">Bijeljina, Bosnia and Herzegovina</a></td>
+                    </tr>
                 </table>
 
                 <div className="CV-container">
